@@ -8,19 +8,18 @@
     <title>Statistics Calculator</title>
   </head>
   <body>
-    <h1>Statistics Calculator</h1>
-    <p>Enter a list of comma-separated numbers.</p>
+    <h1>統計計算機</h1>
+    <p>カンマで区切られた数値のリストを入力します。</p>
     <form onsubmit="calculate(); return false;">
-      <label for="numbers">Numbers:</label>
+      <label for="numbers">番号：</label>
       <input type="text" name="numbers" id="numbers" />
-      <button type="submit">Calculate</button>
+      <button type="submit">計算</button>
     </form>
     <div class="results">
       <p>
-        The <dfn>mean</dfn> of a list of numbers is the average, calculated by
-        taking the sum of all numbers and dividing that by the count of numbers.
+         <dfn>意味</dfn> の数値のリストは、次式で計算された平均です。 すべての数の合計を取り、それを数の数で割ります。
       </p>
-      <p class="bold">Mean: <span id="mean"></span></p>
+      <p class="bold">意味 <span id="mean"></span></p>
       <p>
         The <dfn>median</dfn> of a list of numbers is the number that appears in
         the middle of the list, when sorted from least to greatest.
