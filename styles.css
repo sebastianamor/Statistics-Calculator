@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    background-color: rgb(27, 27, 50);
+    background-color: rgb(103, 30, 126);
     text-align: center;
     color: #fff;
   }
   
   button {
     cursor: pointer;
-    background-color: rgb(59, 59, 79);
+    background-color: rgb(33, 141, 160);
     border: 3px solid white;
     color: white;
   }
